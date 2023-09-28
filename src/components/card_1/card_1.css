@@ -1,0 +1,121 @@
+.nois__card {
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+    padding: 30px 35px 30px 35px;
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    background: var(--color-bg-light);
+    overflow: hidden;
+}
+
+.nois__card--img-right {
+    flex-direction: row-reverse;
+}
+
+.nois__card-content-title {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.nois__card-content-desc {
+    color: var(--color-subtext);
+    font-family: var(--font-alt);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.nois__card-content-checklist {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.nois__card-content-checklist-item {
+    display: flex;
+    align-items: start;
+}
+
+.nois__card-content-checklist-item>img {
+    margin-right: 10px;
+}
+
+.nois__card-content-checklist-item>div {
+    color: var(--color-subtext);
+    font-family: var(--font-alt);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.14px;
+}
+
+.nois__card-content-action-link {
+    font-family: var(--font-alt);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: var(--color-link);
+    display: block;
+    margin-top: 8px;
+}
+
+.nois__card-content-action-linkbtn {
+    font-family: var(--font-alt);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    background-color: transparent;
+    background-image: linear-gradient(150deg, #56CCF2 0%, #2F80ED 100%);
+    border-radius: 10px;
+    padding: 15px 45px 15px 45px;
+    color: var(--color-text-light);
+    display: block;
+    margin-top: 25px;
+}
+
+.nois__card-imgfull {
+    height: calc(390px - 30px);
+}
+
+.nois__card-imgfull>img {
+    height: 390px;
+    width: calc(100% + 70px);
+    object-fit: cover;
+    transform: translate(-35px,-30px);
+}
+
+.nois__card-img {
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nois__card-img>img {
+    height: 100px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 767.98px) {
+    .nois__card {
+        flex-direction: column;
+    }
+
+    .nois__card-content-desc {
+        text-align: justify;
+    }
+
+    .nois__card-img {
+        min-height: 150px;
+    }
+}
