@@ -3,15 +3,9 @@ import './card_1.css';
 
 import { check_illustration_icon, check_icon, service_img } from '../../assets';
 
-const Card_1 = ({ styleImg }) => {
+const Card_1 = ({ posImg, styleImg }) => {
   return (
-    <div className='nois__card nois__card-img__left'>
-      {/* <div className='nois__card-imgfull'>
-        <img src={service_img} alt="" />
-      </div>
-      <div className='nois__card-img'>
-        <img src={check_illustration_icon} alt="" />
-      </div> */}
+    <div className={'nois__card' + ' ' + (posImg || '')}>
       <div className={styleImg}>
         <img src={service_img} alt="" />
       </div>
