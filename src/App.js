@@ -8,7 +8,7 @@ const App = () => {
     <div className='App'>
       <div className='nois__cont'>
         <div className='nois__wrapper'>
-          <Card_1 />
+          <Navbar />
         </div>
       </div>
     </div>

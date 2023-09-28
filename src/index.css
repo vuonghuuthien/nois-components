@@ -9,7 +9,8 @@
   --gradient-button: linear-gradient(270deg, #56CCF2 0%, #2F80ED 100%);
 
   --color-bg-light: #ffffff;
-  --color-bg: #F8FCFF;
+  --color-bg: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  
   --color-bg-dark: #040E14;
   --color-footer: #101828;
   --color-text-light: #ffffff;
@@ -19,4 +20,8 @@
 
   --color-title: #0BA5EC;
   --color-subtitle: #12B76A;
+
+  --trans-checkbox: 0.15s;
+  --border-radius-checkbox: 0.5rem;
+  --color-checkbox: #ffc107;
 }

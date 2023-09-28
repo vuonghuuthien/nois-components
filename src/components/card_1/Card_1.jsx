@@ -3,14 +3,17 @@ import './card_1.css';
 
 import { check_illustration_icon, check_icon, service_img } from '../../assets';
 
-const Card_1 = () => {
+const Card_1 = ({ styleImg }) => {
   return (
-    <div className='nois__card'>
-      <div className='nois__card-imgfull'>
+    <div className='nois__card nois__card-img__left'>
+      {/* <div className='nois__card-imgfull'>
         <img src={service_img} alt="" />
       </div>
       <div className='nois__card-img'>
         <img src={check_illustration_icon} alt="" />
+      </div> */}
+      <div className={styleImg}>
+        <img src={service_img} alt="" />
       </div>
       <div className='nois__card-content'>
         <div className='nois__card-content-title'>
