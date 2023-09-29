@@ -1,7 +1,6 @@
 import React from 'react';
 import './navbar.css';
 
-import { useState } from 'react';
 import Card_1 from '../card_1/Card_1';
 import Checkbox from '../checkbox/Checkbox';
 import { check_illustration_icon, store_illustration_icon, archive_illustration_icon, service_img } from '../../assets';
