@@ -1,3 +1,15 @@
+.navbar {
+    background: rgba(2551, 255, 255, 0.4);
+    height: 100%;
+    max-height: 45vh;
+    width: 100%;
+    padding: 50px;
+    overflow-y: auto;
+    border-radius: 10px;
+    background: linear-gradient(100deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.00) 100%);
+    box-shadow: 0px 4px 30px 10px rgba(0, 0, 0, 0.05);
+}
+
 .title {
     width: 100%;
     text-align: center;
@@ -17,5 +29,5 @@
 }
 
 .cont-space {
-    height: 100px;
+    height: 50px;
 }

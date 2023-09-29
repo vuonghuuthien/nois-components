@@ -1,6 +1,6 @@
 .cont-checkbox {
     border-radius: var(--border-radius-checkbox);
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    /* box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); */
     background: white;
     transition: transform var(--trans-checkbox);
 }
@@ -15,7 +15,7 @@ input {
 
 input:checked + label {
     opacity: 1;
-    box-shadow: 0 0 0 3px var(--color-checkbox);
+    box-shadow: 0 0 0 2px var(--color-checkbox);
 }
 
 input:checked + label .cover-checkbox {

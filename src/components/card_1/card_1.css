@@ -243,6 +243,13 @@
     color: var(--color-text-light);
     display: block;
     margin-top: 25px;
+    transition: 0.5s;
+    background-size: 200% auto;
+}
+
+.nois__card-content-action__btn:hover {
+    background-position: right center;
+    transform: scale(1.05);
 }
 
 @media only screen and (max-width: 1024.98px) {
