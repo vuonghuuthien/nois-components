@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap");
 
 :root {
+  --color-bg-light: #ffffff;
+  --color-bg: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+
+  --trans-checkbox: 0.15s;
+  --border-radius-checkbox: 0.5rem;
+  --color-checkbox: #2F80ED;
+
   --font-family: "Bai Jamjuree", sans-serif;
   --font-alt: "DM Sans", sans-serif;
 
   --gradient-text-alt: linear-gradient(90deg, #FF4E50 0%, #F9D423 100%);
   --gradient-text: linear-gradient(270deg, #56CCF2 0%, #2F80ED 100%);
-  --gradient-button: linear-gradient(270deg, #56CCF2 0%, #2F80ED 100%);
-
-  --color-bg-light: #ffffff;
-  --color-bg: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  --gradient-button: linear-gradient(150deg, #56CCF2 0%, #2F80ED 100%);
   
   --color-bg-dark: #040E14;
   --color-footer: #101828;
@@ -20,10 +24,6 @@
 
   --color-title: #0BA5EC;
   --color-subtitle: #12B76A;
-
-  --trans-checkbox: 0.15s;
-  --border-radius-checkbox: 0.5rem;
-  --color-checkbox: #2F80ED;
 
   --border-radius-card: 10px;
 }
