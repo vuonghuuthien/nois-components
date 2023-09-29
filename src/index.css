@@ -24,4 +24,6 @@
   --trans-checkbox: 0.15s;
   --border-radius-checkbox: 0.5rem;
   --color-checkbox: #ffc107;
+
+  --border-radius-card: 10px;
 }

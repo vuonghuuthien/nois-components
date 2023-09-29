@@ -6,10 +6,18 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;
     background: var(--color-bg);
+    background-repeat: no-repeat;
     font-family: var(--font-family);
 }
+
+.App {
+    overflow: hidden;
+}
+
+/* Global CSS */
 
 a {
     color: unset;
