@@ -3,27 +3,28 @@
 :root {
   --color-bg-light: #ffffff;
   --color-bg: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-
   --trans-checkbox: 0.15s;
   --border-radius-checkbox: 0.5rem;
   --color-checkbox: #2F80ED;
 
+  /* Necessary */
   --font-family: "Bai Jamjuree", sans-serif;
   --font-alt: "DM Sans", sans-serif;
 
-  --gradient-text-alt: linear-gradient(90deg, #FF4E50 0%, #F9D423 100%);
-  --gradient-text: linear-gradient(270deg, #56CCF2 0%, #2F80ED 100%);
-  --gradient-button: linear-gradient(150deg, #56CCF2 0%, #2F80ED 100%);
-  
+  --color-gradient: linear-gradient(150deg, #56CCF2 0%, #2F80ED 100%);
   --color-bg-dark: #040E14;
   --color-footer: #101828;
   --color-text-light: #ffffff;
   --color-text: #222222;
+  --color-text-gradient: linear-gradient(270deg, #56CCF2 0%, #2F80ED 100%);
+  --color-text-gradient-alt: linear-gradient(90deg, #FF4E50 0%, #F9D423 100%);
   --color-subtext: #474F62;
   --color-link: #0BA5EC;
-
   --color-title: #0BA5EC;
   --color-subtitle: #12B76A;
 
   --border-radius-card: 10px;
+
+  --box-shadow-1: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
+  --box-shadow-2: 0px 5px 20px 0px rgba(38, 51, 77, 0.25);
 }

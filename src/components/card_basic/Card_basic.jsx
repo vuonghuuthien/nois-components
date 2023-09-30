@@ -1,11 +1,11 @@
 import React from 'react';
-import './card_1.css';
+import './card_basic.css';
 
 import { check_icon } from '../../assets';
 
-const Card_1 = ({ posCard, showImg, sampleImg, posImg, styleImg, showDesc, showList, showBtn }) => {
+const Card_basic = ({ posCard, showImg, sampleImg, posImg, styleImg, showDesc, showList, showBtn }) => {
   return (
-    <div className={'nois__wrapper__card' + ' ' + (posCard || '')}>
+    <div className={'nois__card-basic' + ' ' + (posCard || '')}>
       <div className={'nois__card' + ' ' + (posImg || '')}>
         <div className={'nois__card-img' + ' ' + (showImg || '') + ' ' + (styleImg || '')}>
           <img src={sampleImg} alt="" />
@@ -42,4 +42,4 @@ const Card_1 = ({ posCard, showImg, sampleImg, posImg, styleImg, showDesc, showL
   )
 }
 
-export default Card_1
+export default Card_basic

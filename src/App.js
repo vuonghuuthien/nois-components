@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
 
-import { Card_1, Brand, Cta, Feature, Navbar } from './components';
+import { Navbar_1, Navbar_2 } from './components';
 
 const App = () => {
   return (
     <div className='App'>
       <div className='nois__cont'>
         <div className='nois__wrapper'>
-          <Navbar />
+          <Navbar_1 />
+          <Navbar_2 />
         </div>
       </div>
     </div>

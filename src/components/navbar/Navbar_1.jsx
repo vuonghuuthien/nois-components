@@ -1,11 +1,11 @@
 import React from 'react';
 import './navbar.css';
 
-import Card_1 from '../card_1/Card_1';
+import Card_1 from '../card_basic/Card_basic';
 import Checkbox from '../checkbox/Checkbox';
 import { check_illustration_icon, store_illustration_icon, archive_illustration_icon, service_img } from '../../assets';
 
-const Navbar = () => {
+const Navbar_1 = () => {
 
   let posCard_list = ['nois__card__left', 'nois__card__center', 'nois__card__right'];
   let showImg_list = ['nois__hide', ''];
@@ -17,13 +17,13 @@ const Navbar = () => {
   let showBtn_list = ['nois__hide', 'nois__card-content-action__link', 'nois__card-content-action__btn', 'nois__card-content-action__icon'];
 
   const [posCard, setPosCard] = React.useState(posCard_list[1]);
-  const [showImg, setShowImg] = React.useState(showImg_list[0]);
-  const [sampleImg, setSampleImg] = React.useState(sampleImg_list[0]);
+  const [showImg, setShowImg] = React.useState(showImg_list[1]);
+  const [sampleImg, setSampleImg] = React.useState(sampleImg_list[1]);
   const [posImg, setPosImg] = React.useState(posImg_list[0]);
   const [styleImg, setStyleImg] = React.useState(styleImg_list[0]);
   const [showDesc, setShowDesc] = React.useState(showDesc_list[0]);
   const [showList, setShowList] = React.useState(showList_list[0]);
-  const [showBtn, setShowBtn] = React.useState(showBtn_list[0]);
+  const [showBtn, setShowBtn] = React.useState(showBtn_list[2]);
 
   const changePosCard = (event) => {
     const id = event.target.id;
@@ -155,8 +155,9 @@ const Navbar = () => {
       <div className='cont-space'></div>
       {/* Card_1 */}
       <Card_1 posCard={posCard} showImg={showImg} sampleImg={sampleImg} posImg={posImg} styleImg={styleImg} showDesc={showDesc} showList={showList} showBtn={showBtn} />
+      <div className='cont-space'></div>
     </div>
   )
 }
 
-export default Navbar
+export default Navbar_1
