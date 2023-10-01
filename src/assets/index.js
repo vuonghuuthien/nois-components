@@ -7,5 +7,7 @@ import dynamics_365_img from './Dynamics-365.svg';
 import double_arrow_right_icon from './Double-Arrow-Right.svg';
 import five_stars_icon from './5-Stars.svg';
 import insightus_logo_img from './insightus-logo.jpg';
+import smart_home_icon from './Smart-Home-Icon.svg';
+import analyzing_icon from './Analyzing-Icon.svg';
 
-export { check_illustration_icon, store_illustration_icon, archive_illustration_icon, check_icon, service_img, dynamics_365_img, double_arrow_right_icon, five_stars_icon, insightus_logo_img };
+export { check_illustration_icon, store_illustration_icon, archive_illustration_icon, check_icon, service_img, dynamics_365_img, double_arrow_right_icon, five_stars_icon, insightus_logo_img, smart_home_icon, analyzing_icon };

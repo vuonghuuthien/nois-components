@@ -16,6 +16,7 @@ const Navbar_4 = () => {
       {/* Card_feedback */}
       <Card_feedback ratingImg={five_stars_icon} userImg={insightus_logo_img} />
       <div className='cont-space'></div>
+      <div className='cont-space'></div>
     </div>
   )
 }

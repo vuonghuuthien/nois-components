@@ -6,3 +6,4 @@ export { default as Navbar_1 } from './navbar/Navbar_1';
 export { default as Navbar_2 } from './navbar/Navbar_2';
 export { default as Navbar_3 } from './navbar/Navbar_3';
 export { default as Navbar_4 } from './navbar/Navbar_4';
+export { default as Navbar_5 } from './navbar/Navbar_5';

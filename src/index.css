@@ -33,4 +33,6 @@
   --box-shadow-2: 0px 5px 20px 0px rgba(38, 51, 77, 0.25);
   --box-shadow-3: 0 10px 30px 0 rgba(162, 182, 212, 0.15);
   --box-shadow-4: 0 5px 10px 0 rgba(162, 182, 212, 0.15);
+  --box-shadow-5: 0 10px 15px 0 rgba(162, 182, 212, 0.25);
+  --box-shadow-6: 0 5px 10px 0 rgba(162, 182, 212, 0.25);
 }

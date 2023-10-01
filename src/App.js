@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { Navbar_1, Navbar_2, Navbar_3, Navbar_4 } from './components';
+import { Navbar_1, Navbar_2, Navbar_3, Navbar_4, Navbar_5 } from './components';
 
 const App = () => {
   return (
@@ -12,6 +12,7 @@ const App = () => {
           <Navbar_2 />
           <Navbar_3 />
           <Navbar_4 />
+          <Navbar_5 />
         </div>
       </div>
     </div>

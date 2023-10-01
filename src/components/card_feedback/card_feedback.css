@@ -5,7 +5,7 @@
 
 .nois__card-feedback .nois__card {
     border-radius: var(--border-radius-card);
-    box-shadow: var(--box-shadow-4);
+    box-shadow: var(--box-shadow-5);
     padding: 20px 30px 20px 20px;
     display: flex;
     width: fit-content;
