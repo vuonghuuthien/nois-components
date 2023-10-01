@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
 
-import Card_1 from '../card_basic/Card_basic';
+import Card_basic from '../card_basic/Card_basic';
 import Checkbox from '../checkbox/Checkbox';
 import { check_illustration_icon, store_illustration_icon, archive_illustration_icon, service_img } from '../../assets';
 
@@ -153,8 +153,8 @@ const Navbar_1 = () => {
       </div>
 
       <div className='cont-space'></div>
-      {/* Card_1 */}
-      <Card_1 posCard={posCard} showImg={showImg} sampleImg={sampleImg} posImg={posImg} styleImg={styleImg} showDesc={showDesc} showList={showList} showBtn={showBtn} />
+      {/* Card_basic */}
+      <Card_basic posCard={posCard} showImg={showImg} sampleImg={sampleImg} posImg={posImg} styleImg={styleImg} showDesc={showDesc} showList={showList} showBtn={showBtn} />
       <div className='cont-space'></div>
     </div>
   )

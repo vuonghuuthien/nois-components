@@ -1,7 +1,7 @@
 import React from 'react';
 import './navbar.css';
 
-import Card_2 from '../card_gradient/Card_gradient';
+import Card_gradient from '../card_gradient/Card_gradient';
 import Checkbox from '../checkbox/Checkbox';
 import { faDatabase, faDesktop, faCloud, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { faMicrosoft, faJsSquare } from '@fortawesome/free-brands-svg-icons';
@@ -103,12 +103,12 @@ const Navbar_2 = () => {
       </div>
 
       <div className='cont-space'></div>
-      {/* Card_2 */}
+      {/* Card_gradient */}
       <div className='nois__cont__card-gradient'>
-        {/* <Card_2 showIcon={showIcon} sampleIcon={sampleIcon_list[0]} posIcon={posIcon} content={content_list[0]} /> */}
+        {/* <Card_gradient showIcon={showIcon} sampleIcon={sampleIcon_list[0]} posIcon={posIcon} content={content_list[0]} /> */}
         {
           cardList.map(item => (
-            <Card_2 showIcon={item.showIcon} sampleIcon={item.sampleIcon} posIcon={item.posIcon} content={item.content} />
+            <Card_gradient showIcon={item.showIcon} sampleIcon={item.sampleIcon} posIcon={item.posIcon} content={item.content} />
           ))
         }
       </div>

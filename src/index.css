@@ -16,9 +16,11 @@
   --color-footer: #101828;
   --color-text-light: #ffffff;
   --color-text: #222222;
+  --color-text-alt: #667085;
   --color-text-gradient: linear-gradient(270deg, #56CCF2 0%, #2F80ED 100%);
   --color-text-gradient-alt: linear-gradient(90deg, #FF4E50 0%, #F9D423 100%);
   --color-subtext: #474F62;
+  --color-subtext-alt: #ADB8CC;
   --color-link: #0BA5EC;
   --color-title: #0BA5EC;
   --color-subtitle: #12B76A;
@@ -30,4 +32,5 @@
   --box-shadow-1: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
   --box-shadow-2: 0px 5px 20px 0px rgba(38, 51, 77, 0.25);
   --box-shadow-3: 0 10px 30px 0 rgba(162, 182, 212, 0.15);
+  --box-shadow-4: 0 5px 10px 0 rgba(162, 182, 212, 0.15);
 }

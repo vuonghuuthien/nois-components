@@ -1,0 +1,97 @@
+.nois__card-feedback {
+    display: flex;
+    justify-content: center;
+}
+
+.nois__card-feedback .nois__card {
+    border-radius: var(--border-radius-card);
+    box-shadow: var(--box-shadow-4);
+    padding: 20px 30px 20px 20px;
+    display: flex;
+    width: fit-content;
+    background: var(--color-bg-light);
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nois__card-feedback .nois__card-rating {
+    min-width: 120px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.nois__card-feedback .nois__card-rating > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.nois__card-feedback .nois__card-content {
+    width: 100%;
+    max-width: 930px;
+}
+
+.nois__card-feedback .nois__card-content-feedback {
+    font-family: var(--font-alt);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28.125px;
+    color: var(--color-text-alt);
+}
+
+.nois__card-feedback .nois__card-content-user {
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.nois__card-feedback .nois__card-content-user__img {
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--color-bg-light);
+}
+
+.nois__card-feedback .nois__card-content-user__img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.nois__card-feedback .nois__card-content-user__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.nois__card-feedback .nois__card-content-user__content-name {
+    font-family: var(--font-alt);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    color: var(--color-text-alt);
+}
+
+.nois__card-feedback .nois__card-content-user__content-position {
+    font-family: var(--font-alt);
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 24.375px;
+    color: var(--color-subtext-alt);
+}
+
+@media only screen and (max-width: 1024.98px) {
+}
+
+@media only screen and (max-width: 767.98px) {
+}
