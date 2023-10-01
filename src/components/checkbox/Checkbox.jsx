@@ -1,11 +1,11 @@
 import React from 'react';
 import './checkbox.css'
 
-const Checkbox = ({ name, id, info, onChange }) => {
+const Checkbox = ({ name, id, info, onChange, onClick }) => {
 
   return (
     <div className="cont-checkbox">
-      <input type="radio" name={name} id={id} onChange={onChange} />
+      <input type="radio" name={name} id={id} onChange={onChange} onClick={onClick}/>
       <label htmlFor={id}>
         <span className="cover-checkbox">
           <svg viewBox="0 0 12 10">

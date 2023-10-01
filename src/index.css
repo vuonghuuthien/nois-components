@@ -22,9 +22,12 @@
   --color-link: #0BA5EC;
   --color-title: #0BA5EC;
   --color-subtitle: #12B76A;
+  --color-icon-gradient: linear-gradient(180deg, #56CCF2 0%, #2F80ED 100%);
+  --color-icon-gradient-backup: #0BA5EC;
 
   --border-radius-card: 10px;
 
   --box-shadow-1: 0px 2px 5px 0px rgba(38, 51, 77, 0.03);
   --box-shadow-2: 0px 5px 20px 0px rgba(38, 51, 77, 0.25);
+  --box-shadow-3: 0 10px 30px 0 rgba(162, 182, 212, 0.15);
 }
