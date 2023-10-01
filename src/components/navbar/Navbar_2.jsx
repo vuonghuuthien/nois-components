@@ -34,7 +34,7 @@ const Navbar_2 = () => {
       element.showIcon = showIcon_list[index];
     });
 
-    setPosIcon(newCardList);
+    setShowIcon(newCardList);
   };
 
   const changePosIcon = (event) => {
